@@ -2,7 +2,7 @@
 
 adasddeadasdassdddd ตุ๊ต๊ะ
 """
-T_TT_T
+T_TT_T สวัสดีครับท่านสมาชิก
 Memory-efficient BIP hyperspectral spectra loader using COCO ground truth.
 
 This version limits the number of spectra per COCO annotation ID rather
