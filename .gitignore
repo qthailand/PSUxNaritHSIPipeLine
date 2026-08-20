@@ -1,0 +1,7 @@
+# ignore __pycache__ folders
+*/__pycache__/*
+#ignore datacube files
+*.bsq
+*.hdr
+#ignore .env files
+.conda
