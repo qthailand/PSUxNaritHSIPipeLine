@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-adasddeadasdassdddd ไอเบสหน้า ***
+adasddeadasdassdddd
 """
 T_TT_T
 Memory-efficient BIP hyperspectral spectra loader using COCO ground truth.
