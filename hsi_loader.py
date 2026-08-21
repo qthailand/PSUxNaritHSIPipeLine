@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-
+# ./hsi_loader.py
 """
 Memory-efficient BIP hyperspectral spectra loader using COCO ground truth.
 
@@ -1355,5 +1354,3 @@ def bip_spectra_loading_by_gt(
         image_id,
         annotation_id,
     )
-
-

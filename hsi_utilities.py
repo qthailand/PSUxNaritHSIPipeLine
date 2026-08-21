@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# ./hsi_utilities.py
 """
 Created on Fri Aug  7 15:32:48 2026
 
@@ -6,25 +7,29 @@ Created on Fri Aug  7 15:32:48 2026
 """
 import numpy as np
 
-#%%
+# %%
+
+
 def get_spectra_per_class(classes):
-   unique_classes, class_counts = np.unique(
-       classes,
-       return_counts=True,
-   ) 
-   print("\nNumber of spectra per class")
-   print("---------------------------")
+    unique_classes, class_counts = np.unique(
+        classes,
+        return_counts=True,
+    )
+    print("\nNumber of spectra per class")
+    print("---------------------------")
 
-   for cls, count in zip(unique_classes, class_counts):
-       print(f"{cls:20s}: {count:,}")
-            
-   # spectra_per_class = dict(
-   #     zip(unique_classes, class_counts)
-   # )
+    for cls, count in zip(unique_classes, class_counts):
+        print(f"{cls:20s}: {count:,}")
 
-   return unique_classes, class_counts
+    # spectra_per_class = dict(
+    #     zip(unique_classes, class_counts)
+    # )
 
-#%% Statistical Outliner Removal (SOR)
+    return unique_classes, class_counts
+
+# %% Statistical Outliner Removal (SOR)
+
+
 def spectral_sor(
     spectral_data,
     classes,
@@ -325,7 +330,8 @@ def spectral_sor(
         keep_mask,
     )
 
-#%% Savitzky–Golay Smoothening
+# %% Savitzky–Golay Smoothening
+
 
 def spectral_SG_smooth(
     spectral_data,
@@ -539,7 +545,7 @@ def spectral_SG_smooth(
     )
 
 
-#%% Savitzky-Golay 1st Derivative
+# %% Savitzky-Golay 1st Derivative
 def spectral_SG_1stDeriv(
     spectral_data,
     classes,

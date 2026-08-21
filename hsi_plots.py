@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# ./hsi_plots.py
 """
 Created on Fri Aug  7 15:23:22 2026
 
@@ -9,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-#%%
+# %%
 
 def plot_all_spectra_by_classes(
     spectral_data,
@@ -80,7 +81,7 @@ def plot_all_spectra_by_classes(
     plt.show()
 
 
-#%%
+# %%
 
 def plot_mean_spectra_by_classes(
     spectral_data,
@@ -91,7 +92,7 @@ def plot_mean_spectra_by_classes(
     linewidth=2.0,
     band_alpha=0.20,
 ):
-    
+
     spectral_data = np.asarray(spectral_data)
     classes = np.asarray(classes)
     wavelength = np.asarray(wavelength)
@@ -249,5 +250,3 @@ def plot_mean_spectra_by_classes(
     plt.show()
 
     return fig, ax
-
-
