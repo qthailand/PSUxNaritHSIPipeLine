@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-adasddeadasdassdddd พี่ต๊ะรักน้องเชียร์ น้องวาย
+
 """
 T_TT_T สวัสดีครับท่านสมาชิก
 Memory-efficient BIP hyperspectral spectra loader using COCO ground truth.
